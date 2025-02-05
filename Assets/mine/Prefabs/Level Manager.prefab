@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6074778260226852937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6433309868331893573}
+  - component: {fileID: 5481733751116880390}
+  - component: {fileID: 4557459120237420927}
+  - component: {fileID: 2116665712713112406}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6433309868331893573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074778260226852937}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 941.27545, y: 497.2064, z: 3.8869524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5481733751116880390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074778260226852937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8aae478079a10d44a1b9f9393da14b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beginTimer: {fileID: 0}
+  _levelTimer: {fileID: 0}
+  _finishTime: {fileID: 0}
+  _restartButton: {fileID: 0}
+  _chooseLevelButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  _aiControllers:
+  - {fileID: 0}
+  _trackChoosePanel: {fileID: 0}
+  _beginPanel: {fileID: 0}
+  _finishPanel: {fileID: 0}
+  _trackLoader: {fileID: 4557459120237420927}
+--- !u!114 &4557459120237420927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074778260226852937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8738907c9ecab4e4f9908f2262a669cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tracks:
+  - {fileID: 4665889804727275879, guid: 79538096fdb113d46a29c651dbed5de9, type: 3}
+  - {fileID: 3496877663661936147, guid: 517f8f6b457e6d644b4ebb275918a3c3, type: 3}
+--- !u!114 &2116665712713112406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074778260226852937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0248b21d847923544b6eae6d95eeb6f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _firstLevelPath:
+  - {fileID: 0}
+  _secondLevelPath:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
