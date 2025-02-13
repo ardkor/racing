@@ -22,8 +22,8 @@ public class AIController : MonoBehaviour
 
         agent.updateRotation = true;
         agent.updatePosition = false;
-        agent.avoidancePriority = 0;// Random.Range(30, 70);
-        agent.speed = Random.Range(14f, 16f);
+        agent.avoidancePriority = Random.Range(30, 70);
+        agent.speed = Random.Range(12f, 17f);
     }
     private void OnEnable()
     {
@@ -64,7 +64,7 @@ public class AIController : MonoBehaviour
             return;
         }
         float rand = Random.Range(-2, 0);
-        Debug.Log(rand);
+        //Debug.Log(rand);
         agent.SetDestination(waypoints[currentWaypointIndex].position + new Vector3(0, 0, rand));
 
         //agent.SetDestination(waypoints[currentWaypointIndex].position);
